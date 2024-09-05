@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css-assignment</title>
+    <style>
+        body{
+            background-color: rgb(244, 90, 90);
+        }
+        .parent{
+            width: 600px;
+        justify-items: center;
+            background-color: rgb(249, 249, 249);
+        }
+        
+        .nav{
+            display: flex;
+            background-color: black;
+            color: white;
+            align-items: center;
+            justify-content: space-between;
+            height: 40px;
+            width: 500px;
+            
+
+        }
+        .aboutme, .mywork, .contact{
+            font-size: 20px;
+        }
+        .aboutme{
+            margin-left: 15px;
+        }
+        .contact{
+            margin-right: 15px;
+        }
+        .para{
+            width: 500px;
+        }
+        .title{
+            font-size: 40px;
+           
+        }
+        .pictures{
+            display: grid;
+            grid-template-columns:1fr 1fr 1fr;
+            grid-template-rows: 2fr 1fr 1fr;
+        }
+
+        .image{
+            width: 500px;
+            
+        }
+        .pic{
+            grid-column: 1/4;
+            grid-row: 1/2;
+        }
+        .animal{
+            width: 160px;
+
+        }
+        .p1{
+            grid-column: 1/2;
+            grid-row: 2/3;
+        }
+        .p2{
+            grid-column: 2/3;
+            grid-row: 2/3;
+        }
+        .p3{
+            grid-row: 2/3;
+            grid-column: 3/4;
+        }
+        .p4{
+            grid-column: 1/2;
+            grid-row: 3/4;
+        }
+        .p5{
+            grid-column: 2/3;
+            grid-row: 3/4;
+        }
+        .p6{
+            grid-column: 3/4;
+            grid-row: 3/4;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="nav">
+            <div class="aboutme">
+                ABOUT ME
+            </div>
+            <div class="mywork">
+                MY WORK
+            </div>
+            <div class="contact">
+                CONTACT
+            </div>
+
+        </div>
+        <p class="title">
+            I SAW THE SIGN
+        </p>
+        <P class="para">
+           Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem unde magni, laudantium suscipit odit voluptatem veritatis esse maxime ut doloremque veniam. Ipsum, ipsam. Tempore numquam vitae quia fugiat provident itaque. 
+        </P>
+        <div class="pictures">
+            <div class="pic">
+                <img class="image" src="https://cdn.pixabay.com/photo/2024/05/26/10/15/bird-8788491_1280.jpg" alt="pic">
+            </div>
+            <div class="p1">
+                <img class="animal" src="https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg" alt="pic">Lorem, ipsum.
+            </div>
+            <div class="p2">
+                <img class="animal" src="https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg" alt="pic">Lorem, ipsum.
+            </div>
+            <div class="p3">
+                <img class="animal" src="https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg" alt="pic">Lorem, ipsum.
+            </div>
+            <div class="p4">
+                <img class="animal" src="https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg" alt="pic">Lorem, ipsum.
+            </div>
+            <div class="p5">
+                <img class="animal" src="https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg" alt="pic">Lorem, ipsum.
+            </div>
+            <div class="p6">
+                <img class="animal" src="https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg" alt="pic">Lorem, ipsum.
+            </div>
+        </div>
+    </div>
+</body>
+</html>
